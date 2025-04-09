@@ -155,10 +155,13 @@ output "public_ip" {
 }
 ```
 **web server displays the data script**
-[web server displays the data script](./Screenshot%202025-04-09%20155006.png)
+ - web server displays the data script
+ ![web server displays the data script](./Screenshot%202025-04-09%20155006.png)
+ 
+ ---
 # Security Considerations i could implement
-Ensure the private key file (terraform-keypair.pem) is stored securely, and access is restricted with appropriate permissions (e.g., chmod 0400 terraform-keypair.pem).
+- Ensure the private key file (terraform-keypair.pem) is stored securely, and access is restricted with appropriate permissions (e.g., chmod 0400 terraform-keypair.pem).
 
 
-Modify the security group ingress rules to limit access based on trusted IP addresses instead of 0.0.0.0/0 for better security.
+- Modify the security group ingress rules to limit access based on trusted IP addresses instead of 0.0.0.0/0 for better security.
 
