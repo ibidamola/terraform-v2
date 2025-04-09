@@ -1,0 +1,23 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+
+# .terraform directory contains modules and provider plugins
+.terraform/
+
+# Terraform override files (usually for local configurations)
+override.tf
+override.tf.json
+
+# Backup files from Terraform
+*.tfvars.backup
+
+# If you use a specific file for environment variables (e.g., AWS credentials)
+*.tfvars
+
+# Optional: Ignore any other sensitive or local files
+*.pem
+
